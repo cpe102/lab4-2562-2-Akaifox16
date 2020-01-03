@@ -11,7 +11,12 @@ int main(){
 
   //Calling findDistance() using test cases
   float x ,y,z;
-  cin >> x >> y >> z;
+  cout << "Enter u : ";
+  cin >> x ;
+  cout << "Enter a : ";
+  cin >> y;
+  cout << "Enter t : ";
+  cin >> z;
   cout << findDistance(x,y,z);
   return 0;
 }
