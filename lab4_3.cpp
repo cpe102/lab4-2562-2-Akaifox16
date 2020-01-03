@@ -11,6 +11,7 @@ int findDivisor(int n){
 
 int main(){
     int x;
+    cout << "Input number : ";
     cin >> x;
-    cout << findDivisor(x);
+    cout  << "Result : "<< findDivisor(x);
 }

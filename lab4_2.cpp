@@ -17,6 +17,6 @@ int main(){
   cin >> y;
   cout << "Enter t : ";
   cin >> z;
-  cout << findDistance(x,y,z);
+  cout << "Distance : " << findDistance(x,y,z);
   return 0;
 }
